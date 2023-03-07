@@ -1,0 +1,204 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding:0 ;
+    
+}
+body{
+    background-image: url("/images/fondo_r1_c1.jpg");
+}
+
+
+section{
+    height: 90vh;
+}
+
+section#principal{
+    font-family: 'Roboto', sans-serif;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 500px;
+    height: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.btn-descarga{
+    display: block;
+    width: 200px;
+    height: 20px;
+    background: rgb(187, 161, 76);
+    border: radius 50px;
+    text-align: center;
+    line-height: 20px;
+    font-size:20px ;
+    color: rgb(74, 68, 158);
+    transition: all 400md ease-out;
+
+}
+
+.btn-descarga:hover{
+    transform: scale(1.1);
+}
+
+section#principal h1{
+    font-size: 3rem;
+}
+
+section#principal h2{
+    font-size: 2rem;
+}
+
+.detalle-informacion{
+    padding: 30px; 
+    border: 20px;
+    margin: 20px;
+    height: 110vh;
+    background-color: aqua;
+    width: 500px;
+    border: 5px solid red;
+}
+
+.detalle-informacion h4 {
+    padding: 20px;
+}
+
+.detalle-educacion{
+    padding: 20px; 
+    border: 20px;
+    margin: 20px;
+    height: 100vh;
+    background-color: aqua;
+    width: 1200px;
+    border: 5px solid red;
+}
+.detalle-educacion p {
+    padding: 20px;
+}
+
+.detalle-laboral{
+    margin: 20px;
+    height: 90vh;
+    background-color: aqua;
+    width: 1200px;
+    border: 5px solid red;
+}
+.detalle-laboral p {
+    padding: 20px;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: rgb(180, 164, 164);
+}
+html {
+    scroll-behavior: smooth;
+}
+section[id] {
+    scroll-margin-top:50px ;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style:none ;
+
+}
+
+nav ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: rgb(13, 255, 13);
+
+}
+
+.formulario {
+    width: 500px;
+    max-width: 90%;
+    margin:200px;
+    border: 100px;
+    margin-top: 50px;
+    padding:20px;
+    box-shadow: 0 0 30px 10px rgba(0,0,0,0.3);
+    position: relative;
+}
+.formulario__titulo {
+    text-align: center;
+    margin-top: 50;
+    color:  rgba(0,0,0,0.7);
+
+}
+
+.formulario__input, .formulario__label,.formulario__submit{
+    display: block;
+    width: 90%;
+  font-size: 1.3em;
+
+} 
+.formulario__input {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+    margin-bottom: 40px;
+
+}
+.formulario__input:focus{
+    outline: 1px solid rgba(0,0,0,0.7);
+
+}
+
+.formulario__input:focus + .formulario__label{
+    margin-top: -130px;
+}
+
+.formulario__label {
+padding-left: 15px;
+position: absolute;
+margin-top: -85px;
+z-index: -20;
+color: rgba(0,0,0,0.5);
+transition: all 0.2s;
+}
+
+.formulario__submit {
+    background: rgba(0,0,0,0.7);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+
+
+}
+
+.fijar {
+    margin-top: -135px;
+}
+
+.redes{
+    height: 200px;
+    background-color: azure;
+    padding: 350px;
+}
+
+.redes h2{
+   
+ text-align: center;
+ font-weight: bold;
+}
+.sociales{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom:40px ;
+}
